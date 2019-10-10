@@ -3,7 +3,7 @@
  * @author Moushumi Rahman
  * @classId CSE360 
  * @assignmentNumber 2
- * @version 2 
+ * @version 3
  */
 
 package cse360assign2;
@@ -63,7 +63,15 @@ public class AddingMachine {
 		return fullString;
 	}
 
+	/**
+	 * Reset the machine
+	 */
+	
 	public void clear() {
+		
+		total = 0;
+		fullString = "0";
+		
 	
 	}
 
